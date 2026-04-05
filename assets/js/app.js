@@ -120,20 +120,20 @@ if (searchBtn) {
     if (!query) return;
 
     const routes = {
-      'home': '/',
-      'index': '/',
-      'solution': '/solutions',
-      'product': '/solutions',
-      'industry': '/industries',
-      'sector': '/industries',
-      'data center': '/industries',
-      'healthcare': '/industries',
-      'banking': '/industries',
-      'about': '/about',
-      'company': '/about',
-      'contact': '/contact',
-      'support': '/contact',
-      'quote': '/contact'
+      'home': 'index.html',
+      'index': 'index.html',
+      'solution': 'solutions.html',
+      'product': 'solutions.html',
+      'industry': 'industries.html',
+      'sector': 'industries.html',
+      'data center': 'industries.html',
+      'healthcare': 'industries.html',
+      'banking': 'industries.html',
+      'about': 'about.html',
+      'company': 'about.html',
+      'contact': 'contact.html',
+      'support': 'contact.html',
+      'quote': 'contact.html'
     };
 
     let foundNav = null;
