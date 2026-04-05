@@ -1,0 +1,4 @@
+node_modules/
+megamind_deployable.zip
+.env
+.DS_Store
